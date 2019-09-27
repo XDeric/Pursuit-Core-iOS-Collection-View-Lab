@@ -17,6 +17,8 @@
 		857F941F233D509600FA2334 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F941E233D509600FA2334 /* ImageManager.swift */; };
 		857F9421233D50A000FA2334 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F9420233D50A000FA2334 /* Error.swift */; };
 		857F9423233D50AE00FA2334 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F9422233D50AE00FA2334 /* ApiManager.swift */; };
+		857F9425233D5E2500FA2334 /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F9424233D5E2500FA2334 /* CountryCollectionViewCell.swift */; };
+		857F9427233D5E3900FA2334 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F9426233D5E3900FA2334 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		857F941E233D509600FA2334 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		857F9420233D50A000FA2334 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		857F9422233D50AE00FA2334 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		857F9424233D5E2500FA2334 /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		857F9426233D5E3900FA2334 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				857F9420233D50A000FA2334 /* Error.swift */,
 				857F9422233D50AE00FA2334 /* ApiManager.swift */,
 				857F93FE233D506D00FA2334 /* ViewController.swift */,
+				857F9424233D5E2500FA2334 /* CountryCollectionViewCell.swift */,
+				857F9426233D5E3900FA2334 /* DetailViewController.swift */,
 				857F9400233D506D00FA2334 /* Main.storyboard */,
 				857F9403233D506E00FA2334 /* Assets.xcassets */,
 				857F9405233D506E00FA2334 /* LaunchScreen.storyboard */,
@@ -211,10 +217,12 @@
 			files = (
 				857F941D233D508A00FA2334 /* NetworkManager.swift in Sources */,
 				857F93FF233D506D00FA2334 /* ViewController.swift in Sources */,
+				857F9425233D5E2500FA2334 /* CountryCollectionViewCell.swift in Sources */,
 				857F93FD233D506D00FA2334 /* AppDelegate.swift in Sources */,
 				857F9421233D50A000FA2334 /* Error.swift in Sources */,
 				857F9423233D50AE00FA2334 /* ApiManager.swift in Sources */,
 				857F941F233D509600FA2334 /* ImageManager.swift in Sources */,
+				857F9427233D5E3900FA2334 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
